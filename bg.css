@@ -6,18 +6,15 @@ html {
   }
   
   body, head {
-    display: block;
-    font-size: 52px;
     color: transparent;
   }
   
   head::before, head::after,
   body::before, body::after {
     position: fixed;
-    top: 50%;
-    left: 50%;
-    width: 6em;
-    height: 6em;
+    font-size: 52px;
+    width: 3em;
+    height: 3em;
     content: ".";
     mix-blend-mode: screen;
     animation: 44s -27s move infinite ease-in-out alternate;
