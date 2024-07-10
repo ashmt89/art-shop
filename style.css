@@ -1,8 +1,8 @@
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 2.5rem;
     font-weight: 100;
-    background: linear-gradient(to right,#ff47d4, #8f2cda, rgb(45, 255, 255));
+    background: linear-gradient(to right,#ff47d4, #8f2cda, #2dffff);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -10,11 +10,11 @@ h1 {
   }
   h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.4rem;
+    font-size: 1.125rem;
     font-weight: 100;
-    letter-spacing: 0.05rem;
-    text-transform: ;
+    letter-spacing: 0.25rem;
     color: white;
+    margin-top: 0;
   }
 
 /* links */
@@ -25,11 +25,22 @@ a {
 .hover a {
     text-decoration: line-through;
 }
-.button {
-    background: linear-gradient(to right,#ff47d4, #8f2cda, rgb(45, 255, 255));
+.gradient-button {
+    background: linear-gradient(to right, #2dffff 0%, #8f2cda 51%, #ff47d4 100%, #8f2cda, #2dffff);
+    background-size: 200% auto;
     border: none;
+    border-radius: 9999px;
+    padding: 0.5rem 2.5rem;
+    margin: 0.75rem 0 0.75rem 0;
     color: white;
-    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.gradient-button:hover {
+    color: #fff;
+    background-position: right center;
 }
 
 
@@ -49,3 +60,51 @@ a {
     justify-content: center;
     background-color: black;
 }   
+
+
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+           
+         
+  .btn-grad {
+    background-image: linear-gradient(to right, #0cebeb 0%, #20e3b2  51%, #0cebeb  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+ 
+ 
